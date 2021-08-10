@@ -1,8 +1,6 @@
 import { GOOGLE_MAPS_APIKEY } from "@env";
-import React, { useEffect } from "react";
-import { useRef } from "react";
-import { View, Text } from "react-native";
-import MapView, { MapViewProps, Marker } from "react-native-maps";
+import React, { useEffect, useRef } from "react";
+import MapView, { Marker } from "react-native-maps";
 import MapViewDirections from "react-native-maps-directions";
 import tw from "tailwind-react-native-classnames";
 import { useAppDispatch, useAppSelector } from "../store/hooks";

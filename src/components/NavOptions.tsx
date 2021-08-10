@@ -1,5 +1,5 @@
 import { useNavigation } from "@react-navigation/native";
-import { StackNavigationProp, StackScreenProps } from "@react-navigation/stack";
+import { StackNavigationProp } from "@react-navigation/stack";
 import React, { FC } from "react";
 import { FlatList, Image, Text, TouchableOpacity, View } from "react-native";
 import { Icon } from "react-native-elements/dist/icons/Icon";
