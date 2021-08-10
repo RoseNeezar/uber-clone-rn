@@ -9,6 +9,7 @@ import { GOOGLE_MAPS_APIKEY } from "@env";
 import { GooglePlacesAutocomplete } from "react-native-google-places-autocomplete";
 import { useAppDispatch } from "../store/hooks";
 import { setDestination, setOrigin } from "../store/slices/navSlice";
+import NavFavorites from "../components/NavFavorites";
 
 interface IHomeScreen
   extends StackScreenProps<RootStackParamList, "HomeScreen"> {}
@@ -58,6 +59,7 @@ const HomeScreen: FC<IHomeScreen> = () => {
           debounce={400}
         />
         <NavOptions />
+        <NavFavorites />
       </View>
     </SafeAreaView>
   );
