@@ -3,7 +3,7 @@ import { RootState } from "../store";
 
 export interface NavState {
   origin: any;
-  destination: string | null;
+  destination: any;
   travelTimeInformation: any;
 }
 
